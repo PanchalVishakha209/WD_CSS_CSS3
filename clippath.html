@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 700px;
+            border: 2px solid;
+            position: relative;
+        }
+
+        .img{
+            height: 60%;     
+            background-image: url(/img/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            clip-path: polygon(0% 0%,100% 0%,100% 80%,50% 100%,50% 100%,0% 80%);
+            padding: 30px 70px;
+            color:rgb(54, 50, 50);
+            
+           
+        }
+
+        .text{
+            height: 40%;
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 20px;
+            color: black;
+
+        }
+
+        .navbar li{
+            list-style: none;
+            display: inline;
+            margin-left: 10px;
+            color: cadetblue;
+        }
+
+        .text{
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .btn1{
+            background-color: chocolate;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 1px 20px;
+        }
+
+        .btn2{
+            background-color: transparent;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 1px 20px;
+        }
+
+        .button{
+            border-radius: 20px;
+            font-size: 20px;
+            position: absolute;
+            top: 66%;
+            left: 48.5%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="img">
+           <div class="header">
+            <div class="logo">
+                <button class="btn1">LOGO</button>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>Feedback</li>
+                </ul>
+            </div>
+           </div>
+
+
+           <div class="text">
+            <h1>WELCOME TO THE SKY</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                Labore, voluptatem? Laboriosam blanditiis inventore facere.  <br>
+                Sint voluptatibus nobis, dolorem odit magni dignissimos eius,  <br>
+                laborum optio asperiores voluptatem reprehenderit tel accusamus.</p>
+            <button class="btn1">Edit</button>
+            <button class="btn2">Delete</button>
+        </div>
+        </div>
+
+        <button class="button">A</button>
+      
+    </div>
+    
+</body>
+</html>
